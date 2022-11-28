@@ -6,6 +6,10 @@ import java.util.List;
 import org.junit.*;
 
 public class TestListExamples {
+  @Test(timeout = 100)
+  public void testTimeout() {
+    while(true) {}
+  }
   // Write your grading tests here!
   @Test
   public void testMerge() {
