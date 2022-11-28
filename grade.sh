@@ -1,6 +1,6 @@
 # Create your grading script here
 
-rm -r student-submission
+rm -r -f student-submission
 git clone $1 student-submission
 if [[ -f ./student-submission/ListExamples.java ]]; then
     echo "ListExamples was found in the repository."
